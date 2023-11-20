@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Third Blog Post 
-description: This is a short description of the third blog post
-featured_image: '/assets/images/blog-bg-10.jpg'
+title: Twelfth Blog Post 
+description: This is a short description of the twelfth blog post
+featured_image: '/assets/images/blog-bg-16.jpg'
 author: 
 seo: 
     title: This should appear in the browser tab

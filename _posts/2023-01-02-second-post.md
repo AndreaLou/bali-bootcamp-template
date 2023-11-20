@@ -2,7 +2,7 @@
 layout: post
 title: Second Blog Post 
 description: This is a short description of the first blog post
-featured_image: '/assets/images/blog-bg-10.jpg'
+featured_image: '/assets/images/blog-bg-2.jpg'
 author: 
 seo: 
     title: This should appear in the browser tab

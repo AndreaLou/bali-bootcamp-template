@@ -1,12 +1,13 @@
 ---
 layout: default
+banner-image: /assets/images/blog-bg-10.jpg
 ---
 
-<section class="p-8 grid">
+<section class="p-8 columns-3">
 
 	{% for post in site.posts %}
 	
-		{% include post-loop-item.html %}
+		{% include post-loop-item-adaptive.html %}
 	
 	{% endfor %}
 

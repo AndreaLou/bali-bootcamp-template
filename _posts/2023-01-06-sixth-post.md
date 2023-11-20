@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Third Blog Post 
-description: This is a short description of the third blog post
+title: Sixth Blog Post 
+description: This is a short description of the sixth blog post
 featured_image: '/assets/images/blog-bg-10.jpg'
 author: 
 seo: 
