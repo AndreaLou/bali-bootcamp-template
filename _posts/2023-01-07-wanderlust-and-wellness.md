@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wellness and Wanderlust
+title: Wanderlust and Wellness 
 description: Exploring ways to balance health and travel for a more enriching and sustainable journey
 featured_image: '/assets/images/blog-bg-9.jpg'
 author: 

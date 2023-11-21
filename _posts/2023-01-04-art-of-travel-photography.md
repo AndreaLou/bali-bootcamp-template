@@ -3,15 +3,17 @@ layout: post
 title: The Art of Travel Photography 
 description: Capturing Moments That Last a Lifetime
 featured_image: '/assets/images/blog-bg-14.jpg'
-author: 
+author: Andrea
+banner-image: '/assets/images/blog-bg-11.jpg'
+banner-heading: The Art of Travel Photography
 seo: 
-    title: The Art of Travel Photography
+    title: Capturing Moments That Last a Lifetime
     keywords: 
     social_image: 
     hide-from-google: false
 ---
 
-## The Art of Travel Photography: Capturing Moments That Last a Lifetime
+## Capturing Moments That Last a Lifetime
 
 <p>Embarking on a journey is not just about the destinations; it's about the moments we capture along the way, freezing time and preserving memories. Travel photography is the art of storytelling through images, allowing us to share the essence of our adventures with others and relive those experiences ourselves. In this blog post, let's unravel the secrets behind the art of travel photography, exploring tips that can help you capture stunning moments that will last a lifetime</p>
 

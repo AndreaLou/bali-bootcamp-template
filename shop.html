@@ -1,0 +1,38 @@
+---
+layout: default
+banner-image: /assets/images/blog-bg-17.jpg
+banner-heading: Curated Collection 
+banner-paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+
+
+seo: 
+    title: 
+    description: 
+    keywords: 
+    social_image: 
+    hide-from-google: false
+
+---
+
+<section class="bg-[#E0DCD9]">
+    <h2 class="text-center pt-10"> Travel Guides </h2>
+
+
+    <div class="grid grid-cols-3 gap-3">
+{% for product in site.products-guides %}
+        <div class=" bg-white">
+            <div class="bg-center bg-cover pb-120p" style="background-image: url('/assets/images/blog-bg-2.jpg');"></div>
+            <div class="p-4">
+            <span class="uppercase bg-[#E0DCD9] p-2 "> Travel Guide</span>
+
+            <h3 Class="uppercase mt-8">Exploring Sumbawa</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corporis ratione enim quaerat? Sapiente doloremque debitis enim architecto </p>
+            <p>$37</p>
+        </div>
+        </div>
+{% endfor %}
+    </div>
+
+
+</section>
+
