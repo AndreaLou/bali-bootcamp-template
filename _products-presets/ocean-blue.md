@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Dazzling island city-state
-description: Reputation as a culinary paradise is well-deserve
+title: Desert Sky
+description: Surfing teaches you to appreciate the finer things in lfe, to be present, livein the moment and just breath.
 featured_image: '/assets/images/blog-bg-16.jpg'
 
 price: 37

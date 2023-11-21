@@ -1,0 +1,56 @@
+---
+layout: default
+banner-image: /assets/images/blog-bg-17.jpg
+banner-heading: Curated Collection 
+banner-paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+
+
+seo: 
+    title: 
+    description: 
+    keywords: 
+    social_image: 
+    hide-from-google: false
+
+---
+
+
+<section class="bg-[#E0DCD9]">
+    <h2 class="text-center pt-10"> Shop. </h2>
+    <p class="uppercase"> Nature teaches you to appreciate the finer things in life, to be present, live in the moment and just breath</p>
+
+<div class="flex justify-center gap-4 ">
+    <span class="border border-black p-3 mb-4">Show all</span>
+    <span class="border border-black p-3 mb-4">Travel Guide</span>
+    <span class="border border-black p-3 mb-4">Lightroom Presets</span>
+</div>
+    <div class="grid grid-cols-3 gap-3 ">
+        {% for product in site.products-guides %}
+                <div class=" bg-white">
+                    <div class="bg-center bg-cover pb-120p" style="background-image: url('{{product.featured_image}}');"></div>
+                    <div class="p-4">
+                    <span class="uppercase bg-[#E0DCD9] p-2 "> Travel Guide</span>
+        
+                    <h3 Class="uppercase mt-8">{{product.title}}</h3>
+                    <p>{{product.description}}</p>
+                    <p>${{product.price}}</p>
+                </div>
+                </div>
+        {% endfor %}
+
+{% for product in site.products-presets %}
+        <div class=" bg-white">
+            <div class="bg-center bg-cover pb-120p" style="background-image: url('{{product.featured_image}}');"></div>
+            <div class="p-4">
+            <span class="uppercase bg-[#E0DCD9] p-2 "> Lightroom Presets</span>
+
+            <h3 Class="uppercase mt-8">{{product.title}}</h3>
+            <p>{{product.description}}</p>
+            <p>${{product.price}}</p>
+        </div>
+        </div>
+{% endfor %}
+    </div>
+
+
+</section>

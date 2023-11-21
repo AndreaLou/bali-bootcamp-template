@@ -478,6 +478,9 @@ header, section, footer {
 .mb-6{
   margin-bottom: 1.5rem;
 }
+.mb-4{
+  margin-bottom: 1rem;
+}
 .flex{
   display: flex;
 }
@@ -499,6 +502,9 @@ header, section, footer {
 .min-h-\[90vh\]{
   min-height: 90vh;
 }
+.min-h-80{
+  min-height: 80vh;
+}
 .w-full{
   width: 100%;
 }
@@ -513,6 +519,9 @@ header, section, footer {
 }
 .max-w-sm{
   max-width: 24rem;
+}
+.max-w-md{
+  max-width: 28rem;
 }
 .shrink-0{
   flex-shrink: 0;
@@ -540,6 +549,9 @@ header, section, footer {
 .items-center{
   align-items: center;
 }
+.justify-center{
+  justify-content: center;
+}
 .justify-between{
   justify-content: space-between;
 }
@@ -555,8 +567,14 @@ header, section, footer {
 .gap-3{
   gap: 0.75rem;
 }
+.self-end{
+  align-self: flex-end;
+}
 .self-center{
   align-self: center;
+}
+.border{
+  border-width: 1px;
 }
 .border-b-2{
   border-bottom-width: 2px;
@@ -566,6 +584,10 @@ header, section, footer {
 }
 .border-current{
   border-color: currentColor;
+}
+.border-black{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 .bg-\[\#E0DCD9\]{
   --tw-bg-opacity: 1;
@@ -609,6 +631,15 @@ header, section, footer {
 .p-10{
   padding: 2.5rem;
 }
+.p-5p{
+  padding: 5%;
+}
+.p-0{
+  padding: 0px;
+}
+.p-3{
+  padding: 0.75rem;
+}
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -632,6 +663,14 @@ header, section, footer {
 .text-sm{
   font-size: 0.875rem;;
   line-height: 1.2;
+}
+.text-lg{
+  font-size: 1.125rem;;
+  line-height: 1.2;
+}
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 .uppercase{
   text-transform: uppercase;

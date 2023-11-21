@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bali Travel Guide
-description: Discovering the Magic of Bali
+title: Summer Glow
+description: Surfing teaches you to appreciate the finer things in lfe, to be present, livein the moment and just breath.
 featured_image: '/assets/images/blog-bg-11.jpg'
 
 price: 37
