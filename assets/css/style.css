@@ -478,6 +478,9 @@ header, section, footer {
 .grid{
   display: grid;
 }
+.hidden{
+  display: none;
+}
 .aspect-square{
   aspect-ratio: 1 / 1;
 }
@@ -513,6 +516,9 @@ header, section, footer {
 }
 .shrink-0{
   flex-shrink: 0;
+}
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .columns-3{
   -moz-columns: 3;
