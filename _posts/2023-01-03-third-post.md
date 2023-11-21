@@ -5,7 +5,7 @@ description: Traveling has the power to transform not only the traveler but also
 featured_image: '/assets/images/blog-bg-10.jpg'
 author: 
 seo: 
-    title: TUnderstanding the Importance of Eco-Friendly Travel
+    title: Understanding the Importance of Eco-Friendly Travel
     description: 
     keywords: 
     social_image: 

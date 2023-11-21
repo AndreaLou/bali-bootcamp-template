@@ -499,6 +499,15 @@ header, section, footer {
 .min-h-\[25vw\]{
   min-height: 25vw;
 }
+.min-h-\[50vh\]{
+  min-height: 50vh;
+}
+.min-h-\[70vh\]{
+  min-height: 70vh;
+}
+.min-h-\[90vh\]{
+  min-height: 90vh;
+}
 .w-full{
   width: 100%;
 }
@@ -523,6 +532,18 @@ header, section, footer {
 .columns-3{
   -moz-columns: 3;
        columns: 3;
+}
+.columns-4{
+  -moz-columns: 4;
+       columns: 4;
+}
+.columns-7{
+  -moz-columns: 7;
+       columns: 7;
+}
+.columns-2{
+  -moz-columns: 2;
+       columns: 2;
 }
 .break-inside-avoid{
   -moz-column-break-inside: avoid;

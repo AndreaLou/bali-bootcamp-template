@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Off-the-Beaten-Path
-description: This is a short description of the first blog post
+description: Off-the-Beaten-Path Destinations You Need to Visit
 featured_image: '/assets/images/blog-bg-15.jpg'
+banner-image: '/assets/images/blog-bg-5.jpg'
+banner-heading: Off-the-Beaten-Path Destinations 
 author: 
 seo: 
-    title: This should appear in the browser tab
+    title: Off-the-Beaten-Path Destinations You Need to Visit
     description: 
     keywords: 
     social_image: 
@@ -13,6 +15,8 @@ seo:
 ---
 
 ## Hidden Gems: Off-the-Beaten-Path Destinations You Need to Visit
+
+
 
 <p>In a world where popular tourist destinations often steal the spotlight, there's a certain allure to exploring hidden gems that remain untouched by the masses. These off-the-beaten-path destinations offer not only solitude but also a chance to immerse yourself in authentic cultures and breathtaking landscapes. Let's dive into some lesser-known travel treasures that deserve a spot on your bucket list.</p>
 

@@ -5,8 +5,8 @@ description: Wellness and Wanderlust Balancing Health and Travel
 featured_image: '/assets/images/blog-bg-5.jpg'
 author: 
 seo: 
-    title: This should appear in the browser tab
-    description: alancing Health and Travel
+    title: Wellness and Wanderlust Balancing Health and Travel
+    description: Balancing Health and Travel
     keywords: health and travel 
     social_image: 
     hide-from-google: false
