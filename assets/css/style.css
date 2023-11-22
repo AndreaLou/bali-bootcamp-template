@@ -463,6 +463,9 @@ header, section, footer {
 .col-span-2{
   grid-column: span 2 / span 2;
 }
+.col-span-6{
+  grid-column: span 6 / span 6;
+}
 .m-4{
   margin: 1rem;
 }
@@ -472,14 +475,26 @@ header, section, footer {
 .mb-5{
   margin-bottom: 1.25rem;
 }
+.mb-4{
+  margin-bottom: 1rem;
+}
 .mt-8{
   margin-top: 2rem;
 }
 .mb-6{
   margin-bottom: 1.5rem;
 }
-.mb-4{
-  margin-bottom: 1rem;
+.mb-0{
+  margin-bottom: 0px;
+}
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+.mt-3{
+  margin-top: 0.75rem;
+}
+.mb-10{
+  margin-bottom: 2.5rem;
 }
 .flex{
   display: flex;
@@ -496,11 +511,17 @@ header, section, footer {
 .h-full{
   height: 100%;
 }
+.max-h-80{
+  max-height: 20rem;
+}
+.max-h-full{
+  max-height: 100%;
+}
 .min-h-\[25vw\]{
   min-height: 25vw;
 }
-.min-h-\[90vh\]{
-  min-height: 90vh;
+.min-h-\[70vh\]{
+  min-height: 70vh;
 }
 .min-h-80{
   min-height: 80vh;
@@ -546,6 +567,9 @@ header, section, footer {
 .grid-cols-3{
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+.grid-cols-6{
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
 .items-center{
   align-items: center;
 }
@@ -561,11 +585,14 @@ header, section, footer {
 .gap-4{
   gap: 1rem;
 }
+.gap-3{
+  gap: 0.75rem;
+}
 .gap-8{
   gap: 2rem;
 }
-.gap-3{
-  gap: 0.75rem;
+.gap-10{
+  gap: 2.5rem;
 }
 .self-end{
   align-self: flex-end;
@@ -609,6 +636,10 @@ header, section, footer {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
 .bg-cover{
   background-size: cover;
 }
@@ -631,14 +662,17 @@ header, section, footer {
 .p-10{
   padding: 2.5rem;
 }
-.p-5p{
-  padding: 5%;
+.p-3{
+  padding: 0.75rem;
 }
 .p-0{
   padding: 0px;
 }
-.p-3{
-  padding: 0.75rem;
+.p-5p{
+  padding: 5%;
+}
+.p-20{
+  padding: 5rem;
 }
 .py-4{
   padding-top: 1rem;
@@ -653,6 +687,21 @@ header, section, footer {
 .pb-50p{
   padding-bottom: 50%;
 }
+.pr-0{
+  padding-right: 0px;
+}
+.pb-0{
+  padding-bottom: 0px;
+}
+.pb-4{
+  padding-bottom: 1rem;
+}
+.pb-3{
+  padding-bottom: 0.75rem;
+}
+.pt-6{
+  padding-top: 1.5rem;
+}
 .text-center{
   text-align: center;
 }
@@ -664,16 +713,15 @@ header, section, footer {
   font-size: 0.875rem;;
   line-height: 1.2;
 }
-.text-lg{
-  font-size: 1.125rem;;
-  line-height: 1.2;
-}
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
 }
 .uppercase{
   text-transform: uppercase;
+}
+.capitalize{
+  text-transform: capitalize;
 }
 .text-white{
   --tw-text-opacity: 1;

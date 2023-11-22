@@ -1,8 +1,8 @@
 ---
 layout: default
 banner-image: /assets/images/blog-bg-17.jpg
-banner-heading: Curated Collection 
-banner-paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+banner-heading: Shop.
+banner-paragraph: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, numquam laboriosam? Sunt aliquid provident.
 
 
 seo: 
@@ -16,8 +16,7 @@ seo:
 
 
 <section class="bg-[#E0DCD9]">
-    <h2 class="text-center pt-10"> Shop. </h2>
-    <p class="uppercase"> Nature teaches you to appreciate the finer things in life, to be present, live in the moment and just breath</p>
+    <h2 class="text-center pt-10"> Explore all our products </h2>
 
 <div class="flex justify-center gap-4 ">
     <span class="border border-black p-3 mb-4">Show all</span>
@@ -27,7 +26,7 @@ seo:
     <div class="grid grid-cols-3 gap-3 ">
         {% for product in site.products-guides %}
                 <div class=" bg-white">
-                    <div class="bg-center bg-cover pb-120p" style="background-image: url('{{product.featured_image}}');"></div>
+                    <a href="{{product.url}}"><div class="bg-center bg-cover pb-120p" style="background-image: url('{{product.featured_image}}');"></div></a>
                     <div class="p-4">
                     <span class="uppercase bg-[#E0DCD9] p-2 "> Travel Guide</span>
         
@@ -40,7 +39,7 @@ seo:
 
 {% for product in site.products-presets %}
         <div class=" bg-white">
-            <div class="bg-center bg-cover pb-120p" style="background-image: url('{{product.featured_image}}');"></div>
+            <a href="{{product.url}}"><div class="bg-center bg-cover pb-120p" style="background-image: url('{{product.featured_image}}');"></div></a>
             <div class="p-4">
             <span class="uppercase bg-[#E0DCD9] p-2 "> Lightroom Presets</span>
 

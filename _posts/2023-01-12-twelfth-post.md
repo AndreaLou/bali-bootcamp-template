@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Volunteer in schools and educational programs abroad
-description: Volunteers for Peace, Global Volunteer Network, and Projects Abroad, have a long history of connecting volunteers with meaningful projects
+description: Volunteers for Peace, Global Volunteer Network.
 featured_image: '/assets/images/blog-bg-16.jpg'
 banner-image:  '/assets/images/blog-bg-10.jpg'
 author: Andrea 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: product-guides
 title: Dazzling island city-state
 description: Reputation as a culinary paradise is well-deserve
 featured_image: '/assets/images/blog-bg-16.jpg'

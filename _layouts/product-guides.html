@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<!-- this is the first intro section -->
+<section class=" bg-stone-100 p-0  ">  
+	<div class="grid grid-cols-2 gap-5">
+         <div class="p-10 self-end pb-3">
+            <h1 class="capitalize mb-4"> {{page.title}} </h1>
+            <h3 class="uppercase"> {{page.sub-heading}}</h3>
+            <p class="mb-10">{{page.description}}</p>
+            <a href="#" class="border border-black  bg-black text-white capitalize p-3">Buy Now</a>
+        </div>
+        <div class="bg-cover min-h-80 "  style="background-image: url('/assets/images/blog-bg-2.jpg')">
+
+        </div>
+    </div>
+	
+</section>
+
+<section>
+    <h2 class="uppercase text-center pt-10">
+        What's Inside
+    </h2>
+    <div class="grid grid-cols-6 gap-3">
+        <img class="col-span-6" src="{{page.gallery[0].image-src}}">
+        {% for image in page.gallery %}
+        <img src="{{image.image-src}}" alt="{{image.alt}}">
+        {% endfor %}
+    </div>
+</section>
+
+<!-- this is the main content section -->
+<section class="p-8 ">
+	{{ content }}
+</section> 
+
+<!-- this is a placeholder section to later add the related posts -->
+<section class="p-8 bg-stone-200"> 
+ 	<p> Add related posts include here later </p>
+</section>

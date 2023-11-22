@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: product-guides
 title: Cambodia Travel 
 description: Cambodia captivates the hearts of travelers worldwide.
 featured_image: '/assets/images/blog-bg-12.jpg'
