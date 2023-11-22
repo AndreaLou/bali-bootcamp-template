@@ -28,9 +28,9 @@ book-chapters:
       page-numbers: 25-35
 
 whats-included:
-    - thing 1
-    - thing 2
-    - thing 3
+    - Top Bali Beaches 
+    - Our Favourite Bars
+    - The Best  
     - thing 4
     - thing 5
     - thing 6

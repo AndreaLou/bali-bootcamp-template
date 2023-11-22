@@ -445,6 +445,10 @@ header, section, footer {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+#loginsection #memberspace-login-form{
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 119 34 / var(--tw-bg-opacity));
+}
 .absolute{
   position: absolute;
 }
@@ -478,23 +482,14 @@ header, section, footer {
 .mb-4{
   margin-bottom: 1rem;
 }
+.mb-10{
+  margin-bottom: 2.5rem;
+}
 .mt-8{
   margin-top: 2rem;
 }
 .mb-6{
   margin-bottom: 1.5rem;
-}
-.mb-0{
-  margin-bottom: 0px;
-}
-.mb-2{
-  margin-bottom: 0.5rem;
-}
-.mt-3{
-  margin-top: 0.75rem;
-}
-.mb-10{
-  margin-bottom: 2.5rem;
 }
 .flex{
   display: flex;
@@ -510,12 +505,6 @@ header, section, footer {
 }
 .h-full{
   height: 100%;
-}
-.max-h-80{
-  max-height: 20rem;
-}
-.max-h-full{
-  max-height: 100%;
 }
 .min-h-\[25vw\]{
   min-height: 25vw;
@@ -564,11 +553,11 @@ header, section, footer {
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
 .grid-cols-6{
   grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .items-center{
   align-items: center;
@@ -588,11 +577,11 @@ header, section, footer {
 .gap-3{
   gap: 0.75rem;
 }
-.gap-8{
-  gap: 2rem;
-}
 .gap-10{
   gap: 2.5rem;
+}
+.gap-8{
+  gap: 2rem;
 }
 .gap-2{
   gap: 0.5rem;
@@ -635,13 +624,13 @@ header, section, footer {
   --tw-bg-opacity: 1;
   background-color: rgb(231 229 228 / var(--tw-bg-opacity));
 }
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
 .bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-cover{
   background-size: cover;
@@ -665,17 +654,14 @@ header, section, footer {
 .p-10{
   padding: 2.5rem;
 }
-.p-3{
-  padding: 0.75rem;
-}
 .p-0{
   padding: 0px;
 }
+.p-3{
+  padding: 0.75rem;
+}
 .p-5p{
   padding: 5%;
-}
-.p-20{
-  padding: 5rem;
 }
 .py-4{
   padding-top: 1rem;
@@ -684,26 +670,14 @@ header, section, footer {
 .pt-10{
   padding-top: 2.5rem;
 }
+.pb-3{
+  padding-bottom: 0.75rem;
+}
 .pb-120p{
   padding-bottom: 120%;
 }
 .pb-50p{
   padding-bottom: 50%;
-}
-.pr-0{
-  padding-right: 0px;
-}
-.pb-0{
-  padding-bottom: 0px;
-}
-.pb-4{
-  padding-bottom: 1rem;
-}
-.pb-3{
-  padding-bottom: 0.75rem;
-}
-.pt-6{
-  padding-top: 1.5rem;
 }
 .text-center{
   text-align: center;
@@ -755,3 +729,4 @@ header, section, footer {
     display: flex;
   }
 }
+
