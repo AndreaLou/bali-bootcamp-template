@@ -445,7 +445,7 @@ header, section, footer {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-#loginsection #memberspace-login-form{
+#loginsection #memberspace-login-form input{
   --tw-bg-opacity: 1;
   background-color: rgb(34 119 34 / var(--tw-bg-opacity));
 }
