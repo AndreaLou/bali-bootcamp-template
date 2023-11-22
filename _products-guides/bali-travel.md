@@ -17,7 +17,30 @@ gallery:
       alt: pages from my amazing book
     - image-src: /assets/images/blog-bg-2.jpg
       alt: pages from my amazing book
+book-chapters:
+    - chapter: Europe
+      page-numbers: 1-7
+    - chapter: Australia
+      page-numbers: 8-15
+    - chapter: Asia
+      page-numbers: 16-24
+    - chapter: Europe
+      page-numbers: 25-35
+
+whats-included:
+    - thing 1
+    - thing 2
+    - thing 3
+    - thing 4
+    - thing 5
+    - thing 6
+    - thing 7
+    - thing 8
+
+
+
 price: 37
+
 seo: 
     title: In the heart of the Indonesian archipelago lies Bali
     description: In the heart of the Indonesian archipelago lies Bali, a canvas painted with the hues of paradise. Enchanting and mystical
