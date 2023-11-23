@@ -28,14 +28,14 @@ book-chapters:
       page-numbers: 25-35
 
 whats-included:
-    - Top Bali Beaches 
-    - Our Favourite Bars
-    - The Best  
-    - thing 4
-    - thing 5
-    - thing 6
-    - thing 7
-    - thing 8
+    - Visit Uluwatu Temple 
+    - Tegallalang Rice Terraces
+    - Sacred Monkey Forest Sanctuary  
+    - Tanah Lot Temple
+    - Mount Batur Sunrise Trek
+    - Waterfall Exploration
+    - Beach Day in Seminyak
+    - Explore Ubud Art Market
 
 
 

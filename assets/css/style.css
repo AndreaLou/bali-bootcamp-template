@@ -445,9 +445,25 @@ header, section, footer {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.button{
+  display: inline-block;
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
 #loginsection #memberspace-login-form input{
   --tw-bg-opacity: 1;
   background-color: rgb(34 119 34 / var(--tw-bg-opacity));
+}
+.invisible{
+  visibility: hidden;
 }
 .absolute{
   position: absolute;
@@ -490,6 +506,12 @@ header, section, footer {
 }
 .mb-6{
   margin-bottom: 1.5rem;
+}
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+.inline{
+  display: inline;
 }
 .flex{
   display: flex;
@@ -539,6 +561,9 @@ header, section, footer {
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.resize{
+  resize: both;
+}
 .columns-3{
   -moz-columns: 3;
        columns: 3;
@@ -586,6 +611,30 @@ header, section, footer {
 .gap-2{
   gap: 0.5rem;
 }
+.gap-20{
+  gap: 5rem;
+}
+.gap-x-5{
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+}
+.gap-y-5{
+  row-gap: 1.25rem;
+}
+.gap-x-8{
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.gap-y-8{
+  row-gap: 2rem;
+}
+.gap-x-6{
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+.gap-y-6{
+  row-gap: 1.5rem;
+}
 .self-end{
   align-self: flex-end;
 }
@@ -632,6 +681,14 @@ header, section, footer {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-slate-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+.bg-slate-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
 .bg-cover{
   background-size: cover;
 }
@@ -663,9 +720,16 @@ header, section, footer {
 .p-5p{
   padding: 5%;
 }
+.p-1{
+  padding: 0.25rem;
+}
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .pt-10{
   padding-top: 2.5rem;
@@ -678,6 +742,12 @@ header, section, footer {
 }
 .pb-50p{
   padding-bottom: 50%;
+}
+.pr-3{
+  padding-right: 0.75rem;
+}
+.pr-10{
+  padding-right: 2.5rem;
 }
 .text-center{
   text-align: center;
@@ -694,6 +764,14 @@ header, section, footer {
   font-size: 3rem;
   line-height: 1;
 }
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 1;
+}
 .uppercase{
   text-transform: uppercase;
 }
@@ -703,6 +781,9 @@ header, section, footer {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.underline{
+  text-decoration-line: underline;
 }
 
 
